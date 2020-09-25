@@ -26,11 +26,12 @@ input[placeholder] {
 }
 
 .fas.fa-check {
+    color: transparent;
+}
+
+input:valid ~ .fas.fa-check {
     color: green;
     z-index: 1;
     left: 280px;
 }
 
-.hidden {
-    display: none;
-}
